@@ -58,6 +58,6 @@ loadImage(
   .finally(() => {
     let text = document.createElement("h1");
     text.innerHTML =
-      "FINALLY. ! ALL PROMISES FULFILLED IRRESPECTIVE OF RESOLVE OR REJECT. ! ";
+      "Finally. ! All Promises Fulfilled Irrespective Of Resolve Or Reject. ! ";
     body.appendChild(text);
   });
